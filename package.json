@@ -1,0 +1,29 @@
+{
+  "name": "3d_shoes",
+  "version": "1.0.0",
+  "description": "Custom Shoe Creation Website (3d)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofian-syed/3d_shoes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofian-syed/3d_shoes/issues"
+  },
+  "homepage": "https://github.com/sofian-syed/3d_shoes#readme",
+  "dependencies": {
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}

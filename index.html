@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    Set character encoding and viewport settings:
+    - "UTF-8" encoding ensures that most characters display correctly.
+    - The viewport meta tag sets the width to the device's width and initial scale to 1,
+      which is important for responsive design.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Shoe Project</title>
+  <style>
+    /* 
+      CSS styles for our project:
+      - Remove default margins and disable scrolling so that our 3D canvas occupies the full window.
+      - Set a light background color.
+    */
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #f0f0f0;
+    }
+    
+    /* 
+      The container that will hold our WebGL canvas.
+      "100vw" and "100vh" ensure it covers the full viewport width and height.
+    */
+    #canvas-container {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    The div below acts as the container for the 3D canvas that Three.js creates.
+    Later, our JavaScript code will attach a canvas element here.
+  -->
+  <div id="canvas-container"></div>
+  
+  <!-- 
+    Load our main JavaScript file as an ES module:
+    - "type='module'" tells the browser that this script uses ES module syntax,
+      which allows us to use import/export statements for modular code.
+  -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
